@@ -22,7 +22,7 @@ def edge_weight(dist):
     return graph
 
 def cal_Ligand_adj():
-    with open('./Dataset/RNA_Test_117.pkl', 'rb') as f:
+    with open('./Dataset/DNA_Test_129.pkl', 'rb') as f:
         data = pickle.load(f)
         for protein in tqdm(data):
             if protein[-1].islower():
