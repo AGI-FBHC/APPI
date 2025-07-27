@@ -29,7 +29,6 @@ torchaudio                2.3.0
 torchdata                 0.8.0
 torchvision               0.18.0
 ```
-## Dataset
 
 ## Train and Test
 
