@@ -143,10 +143,13 @@ Threshold:  0.32
 
 ## Visualization Results
 <img src="Doc/2.jpg" style="width: 48%; height: auto;" />
+
 This figure shows the comparison of binding site prediction performance between MAPPIS and eight existing methods on the same protein sample.
 Green regions represent non-binding residues;
 Red regions represent predicted binding residues;
 Yellow regions represent predicted binding residues with disagreement among methods;
 Purple regions represent true binding residues.
+
 <img src="Doc/3.jpg" style="width: 48%; height: auto;" />
 
+This figure shows multiple visualization styles and rotational views of the 3D structure of the protein.
