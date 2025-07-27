@@ -29,3 +29,22 @@ torch-spline-conv         1.2.2
 torchaudio                2.3.0
 torchdata                 0.8.0
 torchvision               0.18.0
+```
+## Dataset
+
+## Train and Test
+
+### Train
+start training
+```markdown
+python AttPreSite-Ligand_model.py --ligand RNA --trans
+```
+output
+```markdown
+./Model/fold1_best_model.pkl
+./Model/fold2_best_model.pkl
+...
+./Model/full_model_30.pkl
+```
+
+### Test
