@@ -12,14 +12,20 @@
 (e) Overall Workflow of MAPPIS  
 
 ## Dependency
-'''  
-Python     3.10.1
-
-PyTorch >= 1.9.0
-
-numpy
-
-pandas
-
-scikit-learn  
-'''
+```markdown
+python                    3.10.18
+dgl                       2.2.1
+freesasa                  2.2.1
+matplotlib                3.10.0
+numpy                     2.1.2
+pandas                    2.3.1
+scikit-learn              1.6.1
+torch                     2.3.0
+torch-cluster             1.6.3
+torch-geometric           2.5.0
+torch-scatter             2.1.2
+torch-sparse              0.6.18
+torch-spline-conv         1.2.2
+torchaudio                2.3.0
+torchdata                 0.8.0
+torchvision               0.18.0
