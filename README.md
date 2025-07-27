@@ -9,5 +9,17 @@
 (b) Construct a directed weighted graph, where each node represents a residue, each edge represents the connection between nodes, and the weight indicates the strength of the connection.  
 (c) Apply a channel attention mechanism to assign attention weights to features propagated from different layers (hop distances). The SE-Aggregation (Squeeze-and-Excitation) module is used to aggregate neighbor information across different hops and learn their corresponding importance weights 𝑤1,𝑤2,...,𝑤8, which are then combined through a weighted sum.  
 (d) Employ a graph convolutional neural network (GCN) with the incorporation of Initial Residual Connections and Identity Mapping.  
-(e) Overall Workflow of MAPPIS
+(e) Overall Workflow of MAPPIS  
 
+## Dependency
+'''  
+Python     3.10.1
+
+PyTorch >= 1.9.0
+
+numpy
+
+pandas
+
+scikit-learn  
+'''
