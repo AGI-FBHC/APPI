@@ -35,6 +35,7 @@ torchvision               0.18.0
 
 ### Train
 start training
+if use AttPreSite_model.py
 ```markdown
 python AttPreSite_model.py
 ```
@@ -46,8 +47,21 @@ output
 ./Model/full_model_30.pkl
 ```
 
+if use AttPreSite-Ligand_model.py
+```markdown
+python AttPreSite-Ligand_model.py --ligand RNA --trans
+```
+output
+```markdown
+./Model/fold1_best_model.pkl
+./Model/fold2_best_model.pkl
+...
+./Model/full_model_30.pkl
+```
+
 ### Test
 start testing
+if use AttPreSite_model.py
 ```markdown
 python AttPreSite_model.py
 ```
@@ -107,4 +121,22 @@ Test AUC:  0.8118437397506826
 Test AUPRC:  0.4116572608571926
 Test mcc:  0.3485157642515198
 Threshold:  0.18
+```
+
+if use AttPreSite-Ligand_model.py
+```markdown
+python AttPreSite-Ligand_model.py --ligand RNA --trans
+```
+output
+```markdown
+DNA-Test_129:
+Test loss:  0.17306546022205851
+Test binary acc:  0.9235505797680927
+Test precision: 0.41608765366114375
+Test recall:  0.6950892857142857
+Test f1:  0.5205616850551655
+Test AUC:  0.932489375569505
+Test AUPRC:  0.5233944364174145
+Test mcc:  0.5006401050722077
+Threshold:  0.32
 ```
