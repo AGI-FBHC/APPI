@@ -140,3 +140,5 @@ Test AUPRC:  0.5233944364174145
 Test mcc:  0.5006401050722077
 Threshold:  0.32
 ```
+<img src="Doc/2.jpg" width="100%">  
+<img src="Doc/3.jpg" width="100%">  
